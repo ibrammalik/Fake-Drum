@@ -1,4 +1,3 @@
-import "./App.css";
 import "./components/Drum";
 import Drum from "./components/Drum";
 
