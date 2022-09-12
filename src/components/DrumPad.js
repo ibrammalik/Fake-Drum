@@ -19,7 +19,7 @@ function DrumPad(props) {
   });
 
   return (
-    <div className="drum-pad" id={keyCode} onClick={handleClick} pad_id={padId}>
+    <div className="drum-pad bg-slate-400 py-3 text-center" id={keyCode} onClick={handleClick} pad_id={padId}>
       <audio src={padUrl} className="clip" id={keyTrigger}></audio>
       {keyTrigger}
     </div>
