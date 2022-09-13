@@ -6,6 +6,7 @@ function DrumPad(props) {
   const dispatch = useDispatch();
 
   const handleClick = (e) => {
+    e.target.firstChild.currentTime = 0;
     e.target.firstChild.play();
     dispatch({
       type: "click",
